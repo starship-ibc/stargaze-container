@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  stargaze_node:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "16656:26656"
+      - "16657:26657"
+    volumes:
+      - $PWD/config:/home/stargaze/.starsd
+
