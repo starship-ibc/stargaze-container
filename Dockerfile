@@ -1,6 +1,6 @@
-FROM golang:1.18.7
+FROM golang:1.19
 
-ARG STARGAZE_RELEASE=v7.0.0
+ARG STARGAZE_RELEASE=v8.0.0
 
 ENV TZ=America/Detroit
 RUN apt-get update \
