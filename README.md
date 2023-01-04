@@ -39,6 +39,12 @@ You can view the logs like so:
 docker logs -f stargaze-docker-stargaze_node-1
 ```
 
+Or if you're in the same folder as the docker compose file:
+
+```sh
+docker compose logs -f
+```
+
 Or check the status:
 
 ```sh
